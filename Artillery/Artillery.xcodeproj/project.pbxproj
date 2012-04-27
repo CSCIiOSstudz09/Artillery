@@ -7,102 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30B5A374154B4A9E00D9F04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B5A373154B4A9E00D9F04C /* UIKit.framework */; };
-		30B5A376154B4A9E00D9F04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B5A375154B4A9E00D9F04C /* Foundation.framework */; };
-		30B5A378154B4A9E00D9F04C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B5A377154B4A9E00D9F04C /* CoreGraphics.framework */; };
-		30B5A37E154B4A9E00D9F04C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B5A37C154B4A9E00D9F04C /* InfoPlist.strings */; };
-		30B5A380154B4A9E00D9F04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5A37F154B4A9E00D9F04C /* main.m */; };
-		30B5A384154B4A9E00D9F04C /* FPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */; };
-		30B5A387154B4A9E00D9F04C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B5A385154B4A9E00D9F04C /* MainStoryboard.storyboard */; };
-		30B5A38A154B4A9E00D9F04C /* FPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B5A389154B4A9E00D9F04C /* FPViewController.m */; };
+		30EDDFEE154B4CCF00B8E756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFED154B4CCF00B8E756 /* UIKit.framework */; };
+		30EDDFF0154B4CCF00B8E756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFEF154B4CCF00B8E756 /* Foundation.framework */; };
+		30EDDFF2154B4CCF00B8E756 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFF1154B4CCF00B8E756 /* CoreGraphics.framework */; };
+		30EDDFF8154B4CCF00B8E756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30EDDFF6154B4CCF00B8E756 /* InfoPlist.strings */; };
+		30EDDFFA154B4CCF00B8E756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDDFF9154B4CCF00B8E756 /* main.m */; };
+		30EDDFFE154B4CCF00B8E756 /* FPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */; };
+		30EDE001154B4CCF00B8E756 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */; };
+		30EDE004154B4CCF00B8E756 /* FPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDE003154B4CCF00B8E756 /* FPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30B5A36F154B4A9E00D9F04C /* Artillery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artillery.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30B5A373154B4A9E00D9F04C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		30B5A375154B4A9E00D9F04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		30B5A377154B4A9E00D9F04C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		30B5A37B154B4A9E00D9F04C /* Artillery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Artillery-Info.plist"; sourceTree = "<group>"; };
-		30B5A37D154B4A9E00D9F04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		30B5A37F154B4A9E00D9F04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		30B5A381154B4A9E00D9F04C /* Artillery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artillery-Prefix.pch"; sourceTree = "<group>"; };
-		30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */ = {isa = PBXFileReference; name = FPAppDelegate.h; path = Artillery/FPAppDelegate.h; sourceTree = "<group>"; };
-		30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FPAppDelegate.m; path = Artillery/FPAppDelegate.m; sourceTree = "<group>"; };
-		30B5A386154B4A9E00D9F04C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30B5A388154B4A9E00D9F04C /* FPViewController.h */ = {isa = PBXFileReference; name = FPViewController.h; path = Artillery/FPViewController.h; sourceTree = "<group>"; };
-		30B5A389154B4A9E00D9F04C /* FPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FPViewController.m; path = Artillery/FPViewController.m; sourceTree = "<group>"; };
-		30B5A390154B4ADB00D9F04C /* CPUTank.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CPUTank.h; sourceTree = "<group>"; };
+		30EDDFE9154B4CCF00B8E756 /* Artillery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artillery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EDDFED154B4CCF00B8E756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30EDDFEF154B4CCF00B8E756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30EDDFF1154B4CCF00B8E756 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30EDDFF5154B4CCF00B8E756 /* Artillery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Artillery-Info.plist"; sourceTree = "<group>"; };
+		30EDDFF7154B4CCF00B8E756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30EDDFF9154B4CCF00B8E756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30EDDFFB154B4CCF00B8E756 /* Artillery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artillery-Prefix.pch"; sourceTree = "<group>"; };
+		30EDDFFC154B4CCF00B8E756 /* FPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppDelegate.h; sourceTree = "<group>"; };
+		30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppDelegate.m; sourceTree = "<group>"; };
+		30EDE000154B4CCF00B8E756 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		30EDE002154B4CCF00B8E756 /* FPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPViewController.h; sourceTree = "<group>"; };
+		30EDE003154B4CCF00B8E756 /* FPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30B5A36C154B4A9E00D9F04C /* Frameworks */ = {
+		30EDDFE6154B4CCF00B8E756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B5A374154B4A9E00D9F04C /* UIKit.framework in Frameworks */,
-				30B5A376154B4A9E00D9F04C /* Foundation.framework in Frameworks */,
-				30B5A378154B4A9E00D9F04C /* CoreGraphics.framework in Frameworks */,
+				30EDDFEE154B4CCF00B8E756 /* UIKit.framework in Frameworks */,
+				30EDDFF0154B4CCF00B8E756 /* Foundation.framework in Frameworks */,
+				30EDDFF2154B4CCF00B8E756 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30B5A364154B4A9E00D9F04C = {
+		30EDDFDE154B4CCF00B8E756 = {
 			isa = PBXGroup;
 			children = (
-				30B5A390154B4ADB00D9F04C /* CPUTank.h */,
-				30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */,
-				30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */,
-				30B5A385154B4A9E00D9F04C /* MainStoryboard.storyboard */,
-				30B5A388154B4A9E00D9F04C /* FPViewController.h */,
-				30B5A389154B4A9E00D9F04C /* FPViewController.m */,
-				30B5A37A154B4A9E00D9F04C /* Supporting Files */,
-				30B5A372154B4A9E00D9F04C /* Frameworks */,
-				30B5A370154B4A9E00D9F04C /* Products */,
+				30EDDFF3154B4CCF00B8E756 /* Artillery */,
+				30EDDFEC154B4CCF00B8E756 /* Frameworks */,
+				30EDDFEA154B4CCF00B8E756 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30B5A370154B4A9E00D9F04C /* Products */ = {
+		30EDDFEA154B4CCF00B8E756 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30B5A36F154B4A9E00D9F04C /* Artillery.app */,
+				30EDDFE9154B4CCF00B8E756 /* Artillery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30B5A372154B4A9E00D9F04C /* Frameworks */ = {
+		30EDDFEC154B4CCF00B8E756 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30B5A373154B4A9E00D9F04C /* UIKit.framework */,
-				30B5A375154B4A9E00D9F04C /* Foundation.framework */,
-				30B5A377154B4A9E00D9F04C /* CoreGraphics.framework */,
+				30EDDFED154B4CCF00B8E756 /* UIKit.framework */,
+				30EDDFEF154B4CCF00B8E756 /* Foundation.framework */,
+				30EDDFF1154B4CCF00B8E756 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30B5A37A154B4A9E00D9F04C /* Supporting Files */ = {
+		30EDDFF3154B4CCF00B8E756 /* Artillery */ = {
 			isa = PBXGroup;
 			children = (
-				30B5A37B154B4A9E00D9F04C /* Artillery-Info.plist */,
-				30B5A37C154B4A9E00D9F04C /* InfoPlist.strings */,
-				30B5A37F154B4A9E00D9F04C /* main.m */,
-				30B5A381154B4A9E00D9F04C /* Artillery-Prefix.pch */,
+				30EDDFFC154B4CCF00B8E756 /* FPAppDelegate.h */,
+				30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */,
+				30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */,
+				30EDE002154B4CCF00B8E756 /* FPViewController.h */,
+				30EDE003154B4CCF00B8E756 /* FPViewController.m */,
+				30EDDFF4154B4CCF00B8E756 /* Supporting Files */,
+			);
+			path = Artillery;
+			sourceTree = "<group>";
+		};
+		30EDDFF4154B4CCF00B8E756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30EDDFF5154B4CCF00B8E756 /* Artillery-Info.plist */,
+				30EDDFF6154B4CCF00B8E756 /* InfoPlist.strings */,
+				30EDDFF9154B4CCF00B8E756 /* main.m */,
+				30EDDFFB154B4CCF00B8E756 /* Artillery-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = Artillery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30B5A36E154B4A9E00D9F04C /* Artillery */ = {
+		30EDDFE8154B4CCF00B8E756 /* Artillery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30B5A38D154B4A9E00D9F04C /* Build configuration list for PBXNativeTarget "Artillery" */;
+			buildConfigurationList = 30EDE007154B4CCF00B8E756 /* Build configuration list for PBXNativeTarget "Artillery" */;
 			buildPhases = (
-				30B5A36B154B4A9E00D9F04C /* Sources */,
-				30B5A36C154B4A9E00D9F04C /* Frameworks */,
-				30B5A36D154B4A9E00D9F04C /* Resources */,
+				30EDDFE5154B4CCF00B8E756 /* Sources */,
+				30EDDFE6154B4CCF00B8E756 /* Frameworks */,
+				30EDDFE7154B4CCF00B8E756 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -110,82 +115,81 @@
 			);
 			name = Artillery;
 			productName = Artillery;
-			productReference = 30B5A36F154B4A9E00D9F04C /* Artillery.app */;
+			productReference = 30EDDFE9154B4CCF00B8E756 /* Artillery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30B5A366154B4A9E00D9F04C /* Project object */ = {
+		30EDDFE0154B4CCF00B8E756 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FP;
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 30B5A369154B4A9E00D9F04C /* Build configuration list for PBXProject "Artillery" */;
+			buildConfigurationList = 30EDDFE3154B4CCF00B8E756 /* Build configuration list for PBXProject "Artillery" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 30B5A364154B4A9E00D9F04C;
-			productRefGroup = 30B5A370154B4A9E00D9F04C /* Products */;
+			mainGroup = 30EDDFDE154B4CCF00B8E756;
+			productRefGroup = 30EDDFEA154B4CCF00B8E756 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30B5A36E154B4A9E00D9F04C /* Artillery */,
+				30EDDFE8154B4CCF00B8E756 /* Artillery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30B5A36D154B4A9E00D9F04C /* Resources */ = {
+		30EDDFE7154B4CCF00B8E756 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B5A37E154B4A9E00D9F04C /* InfoPlist.strings in Resources */,
-				30B5A387154B4A9E00D9F04C /* MainStoryboard.storyboard in Resources */,
+				30EDDFF8154B4CCF00B8E756 /* InfoPlist.strings in Resources */,
+				30EDE001154B4CCF00B8E756 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30B5A36B154B4A9E00D9F04C /* Sources */ = {
+		30EDDFE5154B4CCF00B8E756 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B5A380154B4A9E00D9F04C /* main.m in Sources */,
-				30B5A384154B4A9E00D9F04C /* FPAppDelegate.m in Sources */,
-				30B5A38A154B4A9E00D9F04C /* FPViewController.m in Sources */,
+				30EDDFFA154B4CCF00B8E756 /* main.m in Sources */,
+				30EDDFFE154B4CCF00B8E756 /* FPAppDelegate.m in Sources */,
+				30EDE004154B4CCF00B8E756 /* FPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30B5A37C154B4A9E00D9F04C /* InfoPlist.strings */ = {
+		30EDDFF6154B4CCF00B8E756 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30B5A37D154B4A9E00D9F04C /* en */,
+				30EDDFF7154B4CCF00B8E756 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		30B5A385154B4A9E00D9F04C /* MainStoryboard.storyboard */ = {
+		30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30B5A386154B4A9E00D9F04C /* en */,
+				30EDE000154B4CCF00B8E756 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			path = Artillery;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30B5A38B154B4A9E00D9F04C /* Debug */ = {
+		30EDE005154B4CCF00B8E756 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		30B5A38C154B4A9E00D9F04C /* Release */ = {
+		30EDE006154B4CCF00B8E756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +234,7 @@
 			};
 			name = Release;
 		};
-		30B5A38E154B4A9E00D9F04C /* Debug */ = {
+		30EDE008154B4CCF00B8E756 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -241,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		30B5A38F154B4A9E00D9F04C /* Release */ = {
+		30EDE009154B4CCF00B8E756 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -255,24 +259,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30B5A369154B4A9E00D9F04C /* Build configuration list for PBXProject "Artillery" */ = {
+		30EDDFE3154B4CCF00B8E756 /* Build configuration list for PBXProject "Artillery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30B5A38B154B4A9E00D9F04C /* Debug */,
-				30B5A38C154B4A9E00D9F04C /* Release */,
+				30EDE005154B4CCF00B8E756 /* Debug */,
+				30EDE006154B4CCF00B8E756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30B5A38D154B4A9E00D9F04C /* Build configuration list for PBXNativeTarget "Artillery" */ = {
+		30EDE007154B4CCF00B8E756 /* Build configuration list for PBXNativeTarget "Artillery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30B5A38E154B4A9E00D9F04C /* Debug */,
-				30B5A38F154B4A9E00D9F04C /* Release */,
+				30EDE008154B4CCF00B8E756 /* Debug */,
+				30EDE009154B4CCF00B8E756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30B5A366154B4A9E00D9F04C /* Project object */;
+	rootObject = 30EDDFE0154B4CCF00B8E756 /* Project object */;
 }

@@ -7,17 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3061DC39154B4DE500F03C5A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */; };
+		3061DC3C154B4DF800F03C5A /* CPUTank.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC3B154B4DF800F03C5A /* CPUTank.m */; };
+		3061DC3F154B4E1200F03C5A /* FPGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC3E154B4E1200F03C5A /* FPGameViewController.m */; };
+		3061DC42154B4E1F00F03C5A /* FPMultiPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC41154B4E1F00F03C5A /* FPMultiPlayerViewController.m */; };
+		3061DC45154B4E2A00F03C5A /* FPSinglePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC44154B4E2A00F03C5A /* FPSinglePlayerViewController.m */; };
+		3061DC48154B4E3C00F03C5A /* ShellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC47154B4E3C00F03C5A /* ShellView.m */; };
+		3061DC4B154B4E4800F03C5A /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC4A154B4E4800F03C5A /* Tank.m */; };
+		3061DC4E154B4E5500F03C5A /* TankQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC4D154B4E5500F03C5A /* TankQueue.m */; };
+		3061DC51154B4E6100F03C5A /* TankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC50154B4E6100F03C5A /* TankView.m */; };
 		30EDDFEE154B4CCF00B8E756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFED154B4CCF00B8E756 /* UIKit.framework */; };
 		30EDDFF0154B4CCF00B8E756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFEF154B4CCF00B8E756 /* Foundation.framework */; };
 		30EDDFF2154B4CCF00B8E756 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFF1154B4CCF00B8E756 /* CoreGraphics.framework */; };
 		30EDDFF8154B4CCF00B8E756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30EDDFF6154B4CCF00B8E756 /* InfoPlist.strings */; };
 		30EDDFFA154B4CCF00B8E756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDDFF9154B4CCF00B8E756 /* main.m */; };
 		30EDDFFE154B4CCF00B8E756 /* FPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */; };
-		30EDE001154B4CCF00B8E756 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */; };
 		30EDE004154B4CCF00B8E756 /* FPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EDE003154B4CCF00B8E756 /* FPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3061DC3A154B4DF200F03C5A /* CPUTank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUTank.h; sourceTree = "<group>"; };
+		3061DC3B154B4DF800F03C5A /* CPUTank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUTank.m; sourceTree = "<group>"; };
+		3061DC3D154B4E0A00F03C5A /* FPGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGameViewController.h; sourceTree = "<group>"; };
+		3061DC3E154B4E1200F03C5A /* FPGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGameViewController.m; sourceTree = "<group>"; };
+		3061DC40154B4E1800F03C5A /* FPMultiPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMultiPlayerViewController.h; sourceTree = "<group>"; };
+		3061DC41154B4E1F00F03C5A /* FPMultiPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMultiPlayerViewController.m; sourceTree = "<group>"; };
+		3061DC43154B4E2400F03C5A /* FPSinglePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSinglePlayerViewController.h; sourceTree = "<group>"; };
+		3061DC44154B4E2A00F03C5A /* FPSinglePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSinglePlayerViewController.m; sourceTree = "<group>"; };
+		3061DC46154B4E3600F03C5A /* ShellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellView.h; sourceTree = "<group>"; };
+		3061DC47154B4E3C00F03C5A /* ShellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellView.m; sourceTree = "<group>"; };
+		3061DC49154B4E4100F03C5A /* Tank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tank.h; sourceTree = "<group>"; };
+		3061DC4A154B4E4800F03C5A /* Tank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tank.m; sourceTree = "<group>"; };
+		3061DC4C154B4E4F00F03C5A /* TankQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankQueue.h; sourceTree = "<group>"; };
+		3061DC4D154B4E5500F03C5A /* TankQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankQueue.m; sourceTree = "<group>"; };
+		3061DC4F154B4E5A00F03C5A /* TankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankView.h; sourceTree = "<group>"; };
+		3061DC50154B4E6100F03C5A /* TankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankView.m; sourceTree = "<group>"; };
 		30EDDFE9154B4CCF00B8E756 /* Artillery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artillery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EDDFED154B4CCF00B8E756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30EDDFEF154B4CCF00B8E756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,7 +53,6 @@
 		30EDDFFB154B4CCF00B8E756 /* Artillery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artillery-Prefix.pch"; sourceTree = "<group>"; };
 		30EDDFFC154B4CCF00B8E756 /* FPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppDelegate.h; sourceTree = "<group>"; };
 		30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppDelegate.m; sourceTree = "<group>"; };
-		30EDE000154B4CCF00B8E756 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		30EDE002154B4CCF00B8E756 /* FPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPViewController.h; sourceTree = "<group>"; };
 		30EDE003154B4CCF00B8E756 /* FPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +101,25 @@
 		30EDDFF3154B4CCF00B8E756 /* Artillery */ = {
 			isa = PBXGroup;
 			children = (
+				3061DC50154B4E6100F03C5A /* TankView.m */,
+				3061DC4F154B4E5A00F03C5A /* TankView.h */,
+				3061DC4D154B4E5500F03C5A /* TankQueue.m */,
+				3061DC4C154B4E4F00F03C5A /* TankQueue.h */,
+				3061DC4A154B4E4800F03C5A /* Tank.m */,
+				3061DC49154B4E4100F03C5A /* Tank.h */,
+				3061DC47154B4E3C00F03C5A /* ShellView.m */,
+				3061DC46154B4E3600F03C5A /* ShellView.h */,
+				3061DC44154B4E2A00F03C5A /* FPSinglePlayerViewController.m */,
+				3061DC43154B4E2400F03C5A /* FPSinglePlayerViewController.h */,
+				3061DC41154B4E1F00F03C5A /* FPMultiPlayerViewController.m */,
+				3061DC40154B4E1800F03C5A /* FPMultiPlayerViewController.h */,
+				3061DC3E154B4E1200F03C5A /* FPGameViewController.m */,
+				3061DC3D154B4E0A00F03C5A /* FPGameViewController.h */,
+				3061DC3B154B4DF800F03C5A /* CPUTank.m */,
+				3061DC3A154B4DF200F03C5A /* CPUTank.h */,
+				3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */,
 				30EDDFFC154B4CCF00B8E756 /* FPAppDelegate.h */,
 				30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */,
-				30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */,
 				30EDE002154B4CCF00B8E756 /* FPViewController.h */,
 				30EDE003154B4CCF00B8E756 /* FPViewController.m */,
 				30EDDFF4154B4CCF00B8E756 /* Supporting Files */,
@@ -150,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EDDFF8154B4CCF00B8E756 /* InfoPlist.strings in Resources */,
-				30EDE001154B4CCF00B8E756 /* MainStoryboard.storyboard in Resources */,
+				3061DC39154B4DE500F03C5A /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +204,14 @@
 				30EDDFFA154B4CCF00B8E756 /* main.m in Sources */,
 				30EDDFFE154B4CCF00B8E756 /* FPAppDelegate.m in Sources */,
 				30EDE004154B4CCF00B8E756 /* FPViewController.m in Sources */,
+				3061DC3C154B4DF800F03C5A /* CPUTank.m in Sources */,
+				3061DC3F154B4E1200F03C5A /* FPGameViewController.m in Sources */,
+				3061DC42154B4E1F00F03C5A /* FPMultiPlayerViewController.m in Sources */,
+				3061DC45154B4E2A00F03C5A /* FPSinglePlayerViewController.m in Sources */,
+				3061DC48154B4E3C00F03C5A /* ShellView.m in Sources */,
+				3061DC4B154B4E4800F03C5A /* Tank.m in Sources */,
+				3061DC4E154B4E5500F03C5A /* TankQueue.m in Sources */,
+				3061DC51154B4E6100F03C5A /* TankView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +224,6 @@
 				30EDDFF7154B4CCF00B8E756 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		30EDDFFF154B4CCF00B8E756 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30EDE000154B4CCF00B8E756 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -240,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Artillery/Artillery-Prefix.pch";
 				INFOPLIST_FILE = "Artillery/Artillery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Artillery/Artillery-Prefix.pch";
 				INFOPLIST_FILE = "Artillery/Artillery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +317,7 @@
 				30EDE009154B4CCF00B8E756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

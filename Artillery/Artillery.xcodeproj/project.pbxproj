@@ -26,11 +26,12 @@
 		30B5A37D154B4A9E00D9F04C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30B5A37F154B4A9E00D9F04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30B5A381154B4A9E00D9F04C /* Artillery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artillery-Prefix.pch"; sourceTree = "<group>"; };
-		30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPAppDelegate.h; sourceTree = "<group>"; };
-		30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPAppDelegate.m; sourceTree = "<group>"; };
+		30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */ = {isa = PBXFileReference; name = FPAppDelegate.h; path = Artillery/FPAppDelegate.h; sourceTree = "<group>"; };
+		30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FPAppDelegate.m; path = Artillery/FPAppDelegate.m; sourceTree = "<group>"; };
 		30B5A386154B4A9E00D9F04C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		30B5A388154B4A9E00D9F04C /* FPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPViewController.h; sourceTree = "<group>"; };
-		30B5A389154B4A9E00D9F04C /* FPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPViewController.m; sourceTree = "<group>"; };
+		30B5A388154B4A9E00D9F04C /* FPViewController.h */ = {isa = PBXFileReference; name = FPViewController.h; path = Artillery/FPViewController.h; sourceTree = "<group>"; };
+		30B5A389154B4A9E00D9F04C /* FPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FPViewController.m; path = Artillery/FPViewController.m; sourceTree = "<group>"; };
+		30B5A390154B4ADB00D9F04C /* CPUTank.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CPUTank.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,13 @@
 		30B5A364154B4A9E00D9F04C = {
 			isa = PBXGroup;
 			children = (
-				30B5A379154B4A9E00D9F04C /* Artillery */,
+				30B5A390154B4ADB00D9F04C /* CPUTank.h */,
+				30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */,
+				30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */,
+				30B5A385154B4A9E00D9F04C /* MainStoryboard.storyboard */,
+				30B5A388154B4A9E00D9F04C /* FPViewController.h */,
+				30B5A389154B4A9E00D9F04C /* FPViewController.m */,
+				30B5A37A154B4A9E00D9F04C /* Supporting Files */,
 				30B5A372154B4A9E00D9F04C /* Frameworks */,
 				30B5A370154B4A9E00D9F04C /* Products */,
 			);
@@ -74,19 +81,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30B5A379154B4A9E00D9F04C /* Artillery */ = {
-			isa = PBXGroup;
-			children = (
-				30B5A382154B4A9E00D9F04C /* FPAppDelegate.h */,
-				30B5A383154B4A9E00D9F04C /* FPAppDelegate.m */,
-				30B5A385154B4A9E00D9F04C /* MainStoryboard.storyboard */,
-				30B5A388154B4A9E00D9F04C /* FPViewController.h */,
-				30B5A389154B4A9E00D9F04C /* FPViewController.m */,
-				30B5A37A154B4A9E00D9F04C /* Supporting Files */,
-			);
-			path = Artillery;
-			sourceTree = "<group>";
-		};
 		30B5A37A154B4A9E00D9F04C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +90,7 @@
 				30B5A381154B4A9E00D9F04C /* Artillery-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Artillery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +179,7 @@
 				30B5A386154B4A9E00D9F04C /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = Artillery;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

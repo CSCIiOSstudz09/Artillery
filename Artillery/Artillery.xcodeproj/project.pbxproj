@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3061DC39154B4DE500F03C5A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */; };
 		3061DC3C154B4DF800F03C5A /* CPUTank.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC3B154B4DF800F03C5A /* CPUTank.m */; };
 		3061DC3F154B4E1200F03C5A /* FPGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC3E154B4E1200F03C5A /* FPGameViewController.m */; };
 		3061DC42154B4E1F00F03C5A /* FPMultiPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC41154B4E1F00F03C5A /* FPMultiPlayerViewController.m */; };
@@ -16,6 +15,7 @@
 		3061DC4B154B4E4800F03C5A /* Tank.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC4A154B4E4800F03C5A /* Tank.m */; };
 		3061DC4E154B4E5500F03C5A /* TankQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC4D154B4E5500F03C5A /* TankQueue.m */; };
 		3061DC51154B4E6100F03C5A /* TankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061DC50154B4E6100F03C5A /* TankView.m */; };
+		30AF5B9D154B4F5D000BFBE8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AF5B9B154B4F5D000BFBE8 /* MainStoryboard.storyboard */; };
 		30EDDFEE154B4CCF00B8E756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFED154B4CCF00B8E756 /* UIKit.framework */; };
 		30EDDFF0154B4CCF00B8E756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFEF154B4CCF00B8E756 /* Foundation.framework */; };
 		30EDDFF2154B4CCF00B8E756 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDDFF1154B4CCF00B8E756 /* CoreGraphics.framework */; };
@@ -26,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3061DC3A154B4DF200F03C5A /* CPUTank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUTank.h; sourceTree = "<group>"; };
 		3061DC3B154B4DF800F03C5A /* CPUTank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUTank.m; sourceTree = "<group>"; };
 		3061DC3D154B4E0A00F03C5A /* FPGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGameViewController.h; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		3061DC4D154B4E5500F03C5A /* TankQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankQueue.m; sourceTree = "<group>"; };
 		3061DC4F154B4E5A00F03C5A /* TankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TankView.h; sourceTree = "<group>"; };
 		3061DC50154B4E6100F03C5A /* TankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TankView.m; sourceTree = "<group>"; };
+		30AF5B9C154B4F5D000BFBE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = Artillery/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		30EDDFE9154B4CCF00B8E756 /* Artillery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artillery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EDDFED154B4CCF00B8E756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		30EDDFEF154B4CCF00B8E756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +101,7 @@
 		30EDDFF3154B4CCF00B8E756 /* Artillery */ = {
 			isa = PBXGroup;
 			children = (
+				30AF5B9B154B4F5D000BFBE8 /* MainStoryboard.storyboard */,
 				3061DC50154B4E6100F03C5A /* TankView.m */,
 				3061DC4F154B4E5A00F03C5A /* TankView.h */,
 				3061DC4D154B4E5500F03C5A /* TankQueue.m */,
@@ -117,7 +118,6 @@
 				3061DC3D154B4E0A00F03C5A /* FPGameViewController.h */,
 				3061DC3B154B4DF800F03C5A /* CPUTank.m */,
 				3061DC3A154B4DF200F03C5A /* CPUTank.h */,
-				3061DC38154B4DE500F03C5A /* MainStoryboard.storyboard */,
 				30EDDFFC154B4CCF00B8E756 /* FPAppDelegate.h */,
 				30EDDFFD154B4CCF00B8E756 /* FPAppDelegate.m */,
 				30EDE002154B4CCF00B8E756 /* FPViewController.h */,
@@ -190,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EDDFF8154B4CCF00B8E756 /* InfoPlist.strings in Resources */,
-				3061DC39154B4DE500F03C5A /* MainStoryboard.storyboard in Resources */,
+				30AF5B9D154B4F5D000BFBE8 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +218,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		30AF5B9B154B4F5D000BFBE8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AF5B9C154B4F5D000BFBE8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		30EDDFF6154B4CCF00B8E756 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -2,7 +2,7 @@
 //  TankView.h
 //  TanksV1
 //
-//  Created by default on 3/21/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -19,9 +19,10 @@
 @property NSInteger playerNumber;
 @property (strong, nonatomic) UIBezierPath *tankPath;
 @property (strong, nonatomic) Tank *tank;
+@property (strong, nonatomic) UIColor *tankColor;
 
 -(void) handleTap:(UITapGestureRecognizer*)tap;
-- (id)initTank: (Tank*) tank withFrame: (CGRect) frame andPlayerNumber: (NSInteger) pNumber;
+- (id)initTank: (Tank*) inTank withFrame: (CGRect) frame andPlayerNumber: (NSInteger) pNumber;
 -(void) animateTankViewDestroyed;
 
 @end

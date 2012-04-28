@@ -2,7 +2,7 @@
 //  FPSinglePlayerViewController.m
 //  FinalProject3
 //
-//  Created by Joe Studniarz on 4/27/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -45,16 +45,16 @@
     screenHeight = super.view.frame.size.height;
     screenWidth = super.view.frame.size.width;
     
+    //Layout and add Ground Image
     CGRect groundViewRect = CGRectMake(0, screenHeight - (44 + 30), screenWidth, 30);
-
-    
-    groundView = [[UIView alloc] initWithFrame: groundViewRect];
-    groundView.backgroundColor = [UIColor greenColor];
+    groundView = [[UIImageView alloc] initWithFrame: groundViewRect];
+    UIImage *grassImage = [UIImage imageNamed:@"ArtilleryGrass.png"];
+    groundView.image = grassImage;
     [self.view addSubview:groundView];
     
     //CreateTanks
     Tank *p1Tank = [[Tank alloc] init];
-    Tank *p2Tank = [[Tank alloc] init];
+    CPUTank *p2Tank = [[CPUTank alloc] initTankWithDifficulty: [[DifficultyContext sharedInstance] difficulty]];
     
     //Calculate Tank Positions
     CGRect tank1Position = CGRectMake(0, groundViewRect.origin.y - 20, 50, 20);

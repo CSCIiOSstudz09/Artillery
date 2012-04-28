@@ -2,7 +2,7 @@
 //  FPGameViewController.m
 //  TanksV1
 //
-//  Created by default on 3/21/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -141,8 +141,8 @@
 //Implementing Tank Methods
 -(void) fireShell
 {
-    CGPoint tankOrigin = currentTankTurn.frame.origin;
-    ShellView *shellView = [[ShellView alloc] initWithFrame:CGRectMake(tankOrigin.x,tankOrigin.y,10,10)];
+    CGRect tankRect = currentTankTurn.frame;
+    ShellView *shellView = [[ShellView alloc] initWithFrame:CGRectMake(tankRect.origin.x + (tankRect.size.width/2),tankRect.origin.y,10,10)];
     [self.view addSubview: shellView];
     
     //Calculate Shot Magnitude
@@ -152,15 +152,17 @@
 
 -(void) cpuFireShell
 {
-    CGPoint tankOrigin = currentTankTurn.frame.origin;
-    ShellView *shellView = [[ShellView alloc] initWithFrame:CGRectMake(tankOrigin.x,tankOrigin.y,10,10)];
+    CGRect tankRect = currentTankTurn.frame;
+    ShellView *shellView = [[ShellView alloc] initWithFrame:CGRectMake(tankRect.origin.x + (tankRect.size.width/2),tankRect.origin.y,10,10)];
     [self.view addSubview: shellView];
     
     //Fire At Tank
     CGPoint enemyTankPosition = [[tankQueue peek] center];
     
     //Calculate Shot Magnitude
-    [shellView cpuSetVelocityAndAngleAtTank: enemyTankPosition];
+    CPUTank *cpuTank = (CPUTank*)(currentTankTurn.tank);
+    NSInteger difficulty = cpuTank.difficulty;
+    [shellView cpuSetVelocityAndAngleAtTank: enemyTankPosition withDifficulty: difficulty];
     [self updateCoords:shellView];
 }
 
@@ -194,6 +196,7 @@
             
             if([view.tankPath containsPoint:convertedPoint])
             {
+                NSLog(@"TankHealth: %i", view.tank.tankHealth);
                 if(view.tank.tankHealth > 0)
                 {
                     view.tank.tankHealth = view.tank.tankHealth - 1;   

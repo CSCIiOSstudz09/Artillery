@@ -2,7 +2,7 @@
 //  ShellView.m
 //  TanksV1
 //
-//  Created by default on 4/4/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -188,10 +188,11 @@
 }
 
 
--(void) cpuSetVelocityAndAngleAtTank: (CGPoint) enemyTankPosition
+-(void) cpuSetVelocityAndAngleAtTank: (CGPoint) enemyTankPosition 
+                      withDifficulty:(NSInteger)difficulty
 {
     
-    double dx, dy;
+    double dx, dy, xVariation,yVariation;
     
     dx = enemyTankPosition.x - self.center.x;
     dy = enemyTankPosition.y - self.center.y;
@@ -208,12 +209,24 @@
         yVel = sqrt(dy*gravity - pow(xVel,2));
     }
     
-    //double variation = 1 -((double)arc4random() / (0x100000000 - 100));
+    if(difficulty == 1)
+    {    
+        xVariation =  1.25 - ((arc4random() % 100)/ 1050.);
+        yVariation =  1.25 - ((arc4random() % 100)/ 95.);
+    }
+    else if(difficulty == 2)
+    {
+        xVariation =  1.25 - ((arc4random() % 100)/ 10500.);
+        yVariation =  .9 - ((arc4random() % 100)/ 350.);
+    }
+    else
+    {       
+        xVariation =  1;
+        yVariation =  1;
+        
+        xVel = xVel/1.3;
+    }
     
-    double xVariation =  1.25 - ((arc4random() % 100)/ 1050.);
-    double yVariation =  1.25 - ((arc4random() % 100)/ 95.);
-    
-    //NSLog(@"Variation: %f",variation);
     
     xVel = xVel * xVariation;
     yVel = yVel * yVariation;    
@@ -221,7 +234,7 @@
 //    yVel = arc4random() % 119;
 //    yVel = -yVel;
     
-    NSLog(@"xVel: %f yVel: %f", xVel, yVel);
+    //NSLog(@"xVel: %f yVel: %f", xVel, yVel);
 
 }
 

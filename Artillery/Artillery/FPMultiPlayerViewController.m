@@ -2,15 +2,11 @@
 //  FPMultiPlayerViewController.m
 //  FinalProject3
 //
-//  Created by Joe Studniarz on 4/27/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "FPMultiPlayerViewController.h"
-
-@interface FPMultiPlayerViewController ()
-
-@end
 
 @implementation FPMultiPlayerViewController
 
@@ -42,10 +38,11 @@
     screenHeight = super.view.frame.size.height;
     screenWidth = super.view.frame.size.width;
     
+    //Layout and add ground Image
     CGRect groundViewRect = CGRectMake(0, screenHeight - (44 + 30), screenWidth, 30);
-    
-    groundView = [[UIView alloc] initWithFrame: groundViewRect];
-    groundView.backgroundColor = [UIColor greenColor];
+    groundView = [[UIImageView alloc] initWithFrame: groundViewRect];
+    UIImage *grassImage = [UIImage imageNamed:@"ArtilleryGrass.png"];
+    groundView.image = grassImage;
     [self.view addSubview:groundView];
     
     
@@ -54,8 +51,8 @@
     CGRect tank2Position = CGRectMake(screenWidth - 50, groundViewRect.origin.y - 20, 50, 20);
     
     Tank *p1Tank = [[Tank alloc] init];
-    CPUTank *p2Tank = [[CPUTank alloc] init];
-    
+    Tank *p2Tank = [[Tank alloc] init];
+
     TankView *tank1View = [[TankView alloc] initTank: p1Tank 
                                            withFrame: tank1Position 
                                      andPlayerNumber: 1

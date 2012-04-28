@@ -2,7 +2,7 @@
 //  Tank.m
 //  TanksV1
 //
-//  Created by default on 4/10/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 

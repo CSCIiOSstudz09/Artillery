@@ -1,5 +1,5 @@
 //
-//  FPSinglePlayerViewController.h
+//  FPDifficultyView.h
 //  FinalProject3
 //
 //  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FPGameViewController.h"
 #import "DifficultyContext.h"
 
-@interface FPSinglePlayerViewController : FPGameViewController
+@interface FPDifficultyView : UIViewController
 
-
--(void) doLayout;
+-(IBAction) difficultyEasy: (id)sender;
+-(IBAction)difficultyMedium:(id)sender;
+-(IBAction)difficultyHard:(id)sender;
 
 @end

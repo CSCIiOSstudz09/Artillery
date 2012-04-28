@@ -2,7 +2,7 @@
 //  TankView.m
 //  TanksV1
 //
-//  Created by default on 3/21/12.
+//  Created by Jacob Spizziri and Joe Studniarz on 4/26/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,21 +14,34 @@
 @synthesize tank;
 @synthesize tankPath;
 @synthesize playerNumber;
+@synthesize tankColor;
 
 
-- (id)initTank: (Tank*) tank withFrame: (CGRect) frame andPlayerNumber: (NSInteger) pNumber
+- (id)initTank: (Tank*) inTank withFrame: (CGRect) frame andPlayerNumber: (NSInteger) pNumber
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
         self.backgroundColor = [UIColor clearColor];
         tankPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:15.];
+
         
         //Initialze tank
-        self.tank = tank;
+        self.tank = inTank;
         
         //Initialize player number
         self.playerNumber = pNumber;
+        
+        
+        //Set Player Color
+        if(playerNumber == 1)
+        {
+            tankColor = [UIColor blueColor];
+        }
+        else
+        {
+            tankColor = [UIColor redColor];
+        }
         
         //Add GestureRecognizer
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
@@ -78,7 +91,7 @@
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
-    [[UIColor redColor] set];
+    [tankColor set];
     [tankPath fill];
 }
 

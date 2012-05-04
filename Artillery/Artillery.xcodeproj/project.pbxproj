@@ -309,11 +309,15 @@
 		309F2972154B71D600542CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: John Bender";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: John Bender";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Artillery/Artillery-Prefix.pch";
 				INFOPLIST_FILE = "Artillery/Artillery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D83BAEB0-58F6-4073-A5FF-AE9DA505F59A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D83BAEB0-58F6-4073-A5FF-AE9DA505F59A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -321,11 +325,15 @@
 		309F2973154B71D600542CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: John Bender";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: John Bender";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Artillery/Artillery-Prefix.pch";
 				INFOPLIST_FILE = "Artillery/Artillery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D83BAEB0-58F6-4073-A5FF-AE9DA505F59A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D83BAEB0-58F6-4073-A5FF-AE9DA505F59A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
